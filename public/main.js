@@ -3725,7 +3725,52 @@ var app = (function () {
   }
   function Gt(t) {
     let n, r, s, i, o, a, l, u, c, d;
-    return {};
+    return {
+      c() {
+          (n = w("div")),
+          (r = w("div")),
+          (s = x()),
+          (i = w("div")),
+          (o = w("p")),
+          (a = w("span")),
+          (l = x()),
+          (u = _(t[0])),
+          (c = x()),
+          (d = w("div")),
+          M(r, "class", "flex justify-center items-center mt-6 mb-1"),
+          M(a, "class", "text-custom-negative"),
+          M(o, "class", "pb-6"),
+          M(i, "class", "text-custom-mg text-xs h-32 overflow-scroll relative"),
+          M(d, "class", "absolute h-6 bottom-0 w-full border-custom-fg "),
+          T(
+            d,
+            "background",
+            "linear-gradient(to bottom, rgba(18,18,18,0), rgba(18,18,18,1)) no-repeat bottom"
+          ),
+          T(d, "background-size", "100% 100%"),
+          M(n, "class", "relative");
+      },
+      m(e, t) {
+        g(e, n, t),
+          p(n, r),
+          p(n, s),
+          p(n, i),
+          p(i, o),
+          p(o, a),
+          p(o, l),
+          p(o, u),
+          p(n, c),
+          p(n, d);
+      },
+      p(e, t) {
+        1 & t && $(u, e[0]);
+      },
+      i: e,
+      o: e,
+      d(e) {
+        e && y(n);
+      },
+    };
   }
   function Et(e) {
     let t, n, r, s;
