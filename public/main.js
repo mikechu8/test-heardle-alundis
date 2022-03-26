@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "NCity Heardle"),
+            (u.textContent = "LOONA Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -3634,7 +3634,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for NCT songs.</p> \n\n<p class="mb-3">Each NCity Heardle is randomly chosen from NCT\'s discography. All copyright goes to SM Entertainment/relevant artists.</p> \n\n<p class="mb-3">Songs included are NCT 127, NCT Dream, WayV, NCT U, NCT (full group), solo songs and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for LOONA songs.</p> \n\n<p class="mb-3">Each LOONA Heardle is randomly chosen from LOONA\'s discography. All copyright goes to Blockberry Creative/relevant artists.</p> \n\n<p class="mb-3">Songs included are OT12, Predebut, side-projects and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3666,8 +3666,8 @@ var app = (function () {
             "class",
             "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
           ),
-          M(r, "href", "https://ko-fi.com/ncityheardle"),
-          M(r, "title", "Support us on Ko-Fi"),
+          M(r, "href", "https://ko-fi.com/heardle"),
+          M(r, "title", "Support the Heardle devs on Ko-Fi"),
           M(
             n,
             "class",
@@ -3822,7 +3822,7 @@ var app = (function () {
       P(async function () {
         (async function () {
           const e = await fetch(
-            "https://ncity-heardle.glitch.me/supporters.json"
+            "https://heardle-api.vercel.app/api"
           );
           return await e.json();
         })().then((e) => {
@@ -3846,11 +3846,11 @@ var app = (function () {
         c() {
           (n = w("p")),
             (n.textContent =
-              "If you enjoyed the game and would like to support us with server costs to keep the game running, please consider donating!"),
+              "If you enjoyed the game and would like to support the Heardle devs with server costs to keep the original game running, please consider donating!"),
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing NCity Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
+              '<p class="mb-3">If you\'ve enjoyed playing LOONA Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -3900,16 +3900,16 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-03-23",
+      startDate: "2022-03-26",
     },
     Jt = [
-      "Nctzen card REVOKED", // FAILED
-      "Lemme see that neobong", // First try
+      "Orbit card REVOKED", // FAILED
+      "Haseul would be proud.", // First try
       "You're pretty good!?",
       "Hey, that was pretty good.",
       "Not bad.",
       "Could've been worse but I still love you.",
-      "I mean.. at least you got it!", // Sixth try
+      "Took you 6 tries... So What!", // Sixth try
     ];
   function Kt(t) {
     let n, r;
@@ -4029,14 +4029,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next NCT song in:"),
+            (k.textContent = "Next LOONA song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">NCity Heardle?</span>'),
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">LOONA Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4245,7 +4245,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's NCity Heardle within the first ")),
+        (t = _("You got today's LOONA Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4272,7 +4272,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's NCity Heardle within ")),
+        (t = _("You got today's LOONA Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4302,7 +4302,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's NCity Heardle. Better luck tomorrow!");
+        n = _("You didn't get today's LOONA Heardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -4442,7 +4442,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "NCity Heardle #" + s.id,
+          let e = "LOONA Heardle #" + s.id,
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4459,7 +4459,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\nhttps://ncity-heardle.glitch.me/";
+          let o = e + "\n\n" + t + "\n\nhttps://loona-heardle.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -4545,7 +4545,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct NCT song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct LOONA song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -9231,12 +9231,12 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "NCity Heardle - NCT song intros game"),
+          (An.title = "LOONA Heardle - LOONA song intros game"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the NCT song from the intro in as few tries as possible"
+            "Guess the LOONA song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
