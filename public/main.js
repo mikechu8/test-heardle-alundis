@@ -3724,51 +3724,34 @@ var app = (function () {
     );
   }
   function Gt(t) {
-    let n, r, s, i, o, a, l, u, c, d;
+    let n, r, s, i;
     return {
       c() {
         (n = w("div")),
-          (r = w("div")),
-          (s = x()),
-          (i = w("div")),
-          (o = w("p")),
-          (a = w("span")),
-          (l = x()),
-          (u = _(t[0])),
-          (c = x()),
-          (d = w("div")),
-          M(r, "class", "flex justify-center items-center mt-6 mb-1"),
-          M(a, "class", "text-custom-negative"),
-          M(o, "class", "pb-6"),
-          M(i, "class", "text-custom-mg text-xs h-32 overflow-scroll relative"),
-          M(d, "class", "absolute h-6 bottom-0 w-full border-custom-fg "),
-          T(
-            d,
-            "background",
-            "linear-gradient(to bottom, rgba(18,18,18,0), rgba(18,18,18,1)) no-repeat bottom"
+          (r = w("a")),
+          (r.innerHTML =
+            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the Heardle devs on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+          M(
+            r,
+            "class",
+            "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
           ),
-          T(d, "background-size", "100% 100%"),
-          M(n, "class", "relative");
+          M(r, "href", "https://ko-fi.com/heardle"),
+          M(r, "title", "Support the Heardle devs on Ko-Fi"),
+          M(
+            n,
+            "class",
+            "text-center flex justify-center items-center flex-col "
+          );
       },
-      m(e, t) {
-        g(e, n, t),
-          p(n, r),
-          p(n, s),
-          p(n, i),
-          p(i, o),
-          p(o, a),
-          p(o, l),
-          p(o, u),
-          p(n, c),
-          p(n, d);
+      m(e, o) {
+        g(e, n, o), p(n, r), s || ((i = S(r, "click", t[0])), (s = !0));
       },
-      p(e, t) {
-        1 & t && $(u, e[0]);
-      },
+      p: e,
       i: e,
       o: e,
       d(e) {
-        e && y(n);
+        e && y(n), (s = !1), i();
       },
     };
   }
