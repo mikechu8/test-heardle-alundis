@@ -1,9 +1,9 @@
 {
-  "name": "LOONA Heardle - That K-Pop song intros game",
+  "name": "LOONA Heardle - That LOONA song intros game",
   "short_name": "LOONA Heardle",
   "icons": [
     {
-      "src": "https://cdn.glitch.global/09d40989-e628-47c0-a8c2-c8c44e6ddcd6/android-chrome-192x192.png?v=1647703930909",
+      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview_192x192.png?v=1648321437062",
       "sizes": "192x192",
       "type": "image/png"
     },
@@ -13,12 +13,12 @@
       "type": "image/png"
     },
     {
-      "src": "https://cdn.glitch.global/09d40989-e628-47c0-a8c2-c8c44e6ddcd6/favicon-32x32.png?v=1647703658785",
+      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview_32x32.png?v=1648321437063",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "https://cdn.glitch.global/09d40989-e628-47c0-a8c2-c8c44e6ddcd6/favicon-16x16.png?v=1647703660375",
+      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview_16x16.png?v=1648321437063",
       "sizes": "16x16",
       "type": "image/png"
     }
