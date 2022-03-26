@@ -3724,36 +3724,8 @@ var app = (function () {
     );
   }
   function Gt(t) {
-    let n, r, s, i;
-    return {
-      c() {
-        (n = w("div")),
-          (r = w("a")),
-          (r.innerHTML =
-            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the Heardle devs on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
-          M(
-            r,
-            "class",
-            "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
-          ),
-          M(r, "href", "https://ko-fi.com/heardle"),
-          M(r, "title", "Support the Heardle devs on Ko-Fi"),
-          M(
-            n,
-            "class",
-            "text-center flex justify-center items-center flex-col "
-          );
-      },
-      m(e, o) {
-        g(e, n, o), p(n, r), s || ((i = S(r, "click", t[0])), (s = !0));
-      },
-      p: e,
-      i: e,
-      o: e,
-      d(e) {
-        e && y(n), (s = !1), i();
-      },
-    };
+    let n, r, s, i, o, a, l, u, c, d;
+    return {};
   }
   function Et(e) {
     let t, n, r, s;
@@ -4425,7 +4397,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "LOONA Heardle #" + (s.id + 1),
+          let e = "🌙 LOONA Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -8942,6 +8914,10 @@ var app = (function () {
             url: "https://soundcloud.com/baunii/loona-girl-front",
             answer: "LOONA Odd Eye Circle - Girl Front",
           },
+          {
+            url: "https://soundcloud.com/not-heej/loona-playback",
+            answer: "LOONA - Playback",
+          }
         ],
         Pn
       ).subscribe,
@@ -9289,7 +9265,7 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "LOONA Heardle - LOONA song intros game"),
+          (An.title = "🌙 LOONA Heardle - That LOONA song intros game"),
           M(t, "name", "description"),
           M(
             t,
