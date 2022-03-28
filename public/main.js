@@ -4459,7 +4459,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\nDon't forget to stream: https://youtu.be/9sycy5izQwY";
+          let o = e + "\n\n" + t + "\n\nhttps://loona-heardle.glitch.me\n\nDon't forget to stream: https://youtu.be/9sycy5izQwY";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
