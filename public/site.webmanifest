@@ -3,12 +3,12 @@
   "short_name": "🌙 LOONA Heardle",
   "icons": [
     {
-      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview_192x192.png?v=1648321437062",
+      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview_192x192.png?v=1648535295401",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview.png?v=1648320949245",
+      "src": "https://cdn.glitch.global/e94eda09-e161-4770-92ba-d1d3990a0c9f/preview.png?v=1648535298015",
       "sizes": "512x512",
       "type": "image/png"
     },
