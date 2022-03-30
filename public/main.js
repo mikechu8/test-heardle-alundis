@@ -8612,7 +8612,7 @@ var app = (function () {
             answer: "LOONA Odd Eye Circle - LOONATIC",
           },
           {
-            url: "https://soundcloud.com/loonatheworld_official/universe",
+            url: "https://soundcloud.com/user-470142153/universe-loona-slowed-reverb",
             answer: "LOONA - Universe",
           },
           {
