@@ -3634,7 +3634,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography. All copyright goes to Blockberry Creative/relevant artists.</p> \n\n<p class="mb-3">Songs included are OT12, Predebut, side-projects and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. Harry Styles version made by <a href ="https://twitter.com/TokkiNeukdae">TokkiNeukdae</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://loona-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography. All copyright goes to Blockberry Creative/relevant artists.</p> \n\n<p class="mb-3">Songs included are OT12, Predebut, side-projects and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. Harry Styles version made by <a href ="https://twitter.com/TokkiNeukdae">TokkiNeukdae</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -8600,10 +8600,24 @@ var app = (function () {
     
       // "Red Velvet - Psycho",
       "Harry Styles - As It Was",
+      "Harry Styles - Sunflower, Vol 6",
+      "Harry Styles - Cherry",
+      "Harry Styles - She",
+      "Harry Styles - Golden",
+      "Harry Styles - Fine Line",
+      "Harry Styles - Treat People With Kindness",
     ]),
     On = {
       subscribe: ue(
         [
+          {
+            url: "https://soundcloud.com/harrystyles/woman",
+            answer: "Harry Styles - Woman",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/woman",
+            answer: "Harry Styles - Woman",
+          },
           {
             url: "https://soundcloud.com/harrystyles/as-it-was",
             answer: "Harry Styles - As It Was",
@@ -8613,16 +8627,16 @@ var app = (function () {
             answer: "Harry Styles - Sunflower, Vol 6",
           },
           {
-            url: "https://soundcloud.com/harrystyles/cherry",
-            answer: "Harry Styles - Cherry",
-          },
-          {
             url: "https://soundcloud.com/harrystyles/she",
             answer: "Harry Styles - She",
           },
           {
             url: "https://soundcloud.com/harrystyles/golden",
             answer: "Harry Styles - Golden",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/cherry",
+            answer: "Harry Styles - Cherry",
           },
           {
             url: "https://soundcloud.com/harrystyles/treat-people-with-kindness",
