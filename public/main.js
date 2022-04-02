@@ -8598,6 +8598,7 @@ var app = (function () {
       // "Red Velvet - Psycho",
       // "Red Velvet - Psycho",
       // "Red Velvet - Psycho",
+      "Harry Styles - As It Was",
     ]),
     On = {
       subscribe: ue(
@@ -8605,6 +8606,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/l2share131/aespa-next-level-1",
             answer: "AESPA - Next Level",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
           },
           {
             url: "https://soundcloud.com/baunii/loona-haseul-heejin-hyunjin-the-carol",
@@ -9321,7 +9326,7 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "🌙 LOONA Heardle - That LOONA song intros game"),
+          (An.title = "🌙 My Heardle - That LOONA song intros game"),
           M(t, "name", "description"),
           M(
             t,
