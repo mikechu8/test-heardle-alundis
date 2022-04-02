@@ -3903,12 +3903,12 @@ var app = (function () {
       startDate: "2022-03-27",
     },
     Jt = [
-      "Preparing to leave LOONA Island...", // FAILED
-      "Haseul would be proud.", // First try
+      "Preparing to leave...", // FAILED
+      "Harry would be proud.", // First try
       "You're pretty good!?",
       "Hey, that was pretty good.",
       "Not bad.",
-      "Could've been worse... *Gowon voice* but I still love you.",
+      "Could've been worse... but I still love you.",
       "Took you 6 tries... So What?", // Sixth try
     ];
   function Kt(t) {
