@@ -4442,7 +4442,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "🌙 Harry Styles Heardle #" + (s.id + 1),
+          let e = "Harry Styles Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -8937,7 +8937,7 @@ var app = (function () {
     G(e[18]),
       (l = new me({
         props: {
-          properties: ["G-3QSG4MYSLD"],
+          properties: ["G-XXXXXXXX"],
         },
       }));
     let L = e[10].isActive && Nn(e);
@@ -9001,7 +9001,7 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "🌙 Harry Styles Heardle"),
+          (An.title = "Harry Styles Heardle"),
           M(t, "name", "description"),
           M(
             t,
