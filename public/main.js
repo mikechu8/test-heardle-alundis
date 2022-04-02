@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "My Heardle"),
+            (u.textContent = "Harry Styles Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -3634,7 +3634,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for LOONA songs.</p> \n\n<p class="mb-3">Each LOONA Heardle is randomly chosen from LOONA\'s discography. All copyright goes to Blockberry Creative/relevant artists.</p> \n\n<p class="mb-3">Songs included are OT12, Predebut, side-projects and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. LOONA version made by <a href ="https://twitter.com/TokkiNeukdae">TokkiNeukdae</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography. All copyright goes to Blockberry Creative/relevant artists.</p> \n\n<p class="mb-3">Songs included are OT12, Predebut, side-projects and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. Harry Styles version made by <a href ="https://twitter.com/TokkiNeukdae">TokkiNeukdae</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3850,7 +3850,7 @@ var app = (function () {
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing LOONA Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
+              '<p class="mb-3">If you\'ve enjoyed playing Harry Styles Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -4029,14 +4029,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next LOONA song in:"),
+            (k.textContent = "Next Harry Styles song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">LOONA Heardle?</span>'),
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Harry Styles Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4245,7 +4245,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's LOONA Heardle within the first ")),
+        (t = _("You got today's Harry Styles Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4272,7 +4272,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's LOONA Heardle within ")),
+        (t = _("You got today's Harry Styles Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4302,7 +4302,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's LOONA Heardle. Better luck tomorrow!");
+        n = _("You didn't get today's Harry Styles Heardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -4442,7 +4442,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "🌙 LOONA Heardle #" + (s.id + 1),
+          let e = "🌙 Harry Styles Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4545,7 +4545,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct LOONA song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Harry Styles song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8605,10 +8605,6 @@ var app = (function () {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/l2share131/aespa-next-level-1",
-            answer: "AESPA - Next Level",
-          },
-          {
             url: "https://soundcloud.com/harrystyles/as-it-was",
             answer: "Harry Styles - As It Was",
           },
@@ -8617,409 +8613,33 @@ var app = (function () {
             answer: "Harry Styles - Sunflower, Vol 6",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/cherry",
+            answer: "Harry Styles - Cherry",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/she",
+            answer: "Harry Styles - She",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/golden",
+            answer: "Harry Styles - Golden",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/treat-people-with-kindness",
+            answer: "Harry Styles - Treat People With Kindness",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/fine-line",
+            answer: "Harry Styles - Fine Line",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/to-be-so-lonely",
+            answer: "Harry Styles - To Be So Lonely",
           },
           {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
+            url: "https://soundcloud.com/harrystyles/canyon-moon",
+            answer: "Harry Styles - Canyon Moon",
           },
-          {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
-          },
-          {
-            url: "https://soundcloud.com/harrystyles/as-it-was",
-            answer: "Harry Styles - As It Was",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-haseul-heejin-hyunjin-the-carol",
-            answer: "Heejin, Hyunjin, Haseul - The Carol",
-          },
-          {
-            url: "https://soundcloud.com/baunii/love-live",
-            answer: "LOONA 1/3 - Love & Live",
-          },
-          {
-            url: "https://soundcloud.com/user-526930870/x-x",
-            answer: "LOONA - X X",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-loonatic",
-            answer: "LOONA Odd Eye Circle - LOONATIC",
-          },
-          {
-            url: "https://soundcloud.com/user-470142153/universe-loona-slowed-reverb",
-            answer: "LOONA - Universe",
-          },
-          {
-            url: "https://soundcloud.com/baunii/dal-segno",
-            answer: "LOONA yyxy - dal segno",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-yeojin-haseul-my-melody",
-            answer: "Haseul, Yeojin - My Melody",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-egoist-feat-olivia-hye",
-            answer: "Olivia Hye (ft. Jinsoul) - Egoist",
-          },
-          {
-            url: "https://soundcloud.com/kpop-gurl-952407856/heat-loona",
-            answer: "LOONA - Heat",
-          },
-          {
-            url: "https://soundcloud.com/honeygloss/51db-rain-51db",
-            answer: "LOONA 1/3 - Rain 51Db",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-chuu-yves-girls-talk",
-            answer: "Yves, Chuu - Girl's Talk",
-          },
-          {
-            url: "https://soundcloud.com/l2shareost25/jinsoul-loona-as-time-goes-meow-the-secret-boy-ost-part-8",
-            answer: "Jinsoul - As Time Goes",
-          },
-          {
-            url: "https://soundcloud.com/user-861742322/loona-hide-seek-slowed-and",
-            answer: "LOONA - Hide & Seek",
-          },
-          {
-            url: "https://soundcloud.com/kpop-gurl-952407856/around-you",
-            answer: "Hyunjin - Around You",
-          },
-          {
-            url: "https://soundcloud.com/l2share47/loona-favorite",
-            answer: "LOONA - favOriTe",
-          },
-          {
-            url: "https://soundcloud.com/adriyvn/love-live-remix",
-            answer: "LOONA 1/3 - I Like You More Now",
-          },
-          {
-            url: "https://soundcloud.com/loonatheworld_official/fall-again",
-            answer: "LOONA - Fall Again",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loonathe-carol-20-yves-vivi-choerry",
-            answer: "Vivi, Choerry, Yves - The Carol 2.0",
-          },
-          {
-            url: "https://soundcloud.com/xangeln/loona-u-r",
-            answer: "LOONA - U R",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-sweet-crazy-love",
-            answer: "LOONA Odd Eye Circle - Sweet Crazy Love",
-          },
-          {
-            url: "https://soundcloud.com/l2shareost27/chuu-loona-spring-flower-into-the-ring-ost-part-4",
-            answer: "Chuu - Spring Flower",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-vivi-eily-haseul",
-            answer: "Vivi (ft. Haseul) - Everyday I Love You",
-          },
-          {
-            url: "https://soundcloud.com/louis-sub/loona-hi-high",
-            answer: "LOONA - Hi High",
-          },
-          {
-            url: "https://soundcloud.com/aeyxj11rx/masquerade-heejin-jinsoulloona-ost-tracer-ost-part-4",
-            answer: "Heejin, Jinsoul - Masquerade",
-          },
-          {
-            url: "https://soundcloud.com/loonatheworld_official/12-00",
-            answer: "LOONA - 12:00",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loonatic-english-ver",
-            answer: "LOONA Odd Eye Circle - LOONATIC (Eng. Ver.)",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-chaotic",
-            answer: "LOONA - Chaotic",
-          },
-          {
-            url: "https://soundcloud.com/baunii/one-way",
-            answer: "LOONA yyxy - one way",
-          },
-          {
-            url: "https://soundcloud.com/baunii/odd",
-            answer: "LOONA Odd Eye Circle - ODD",
-          },
-          {
-            url: "https://soundcloud.com/honeygloss/love-evil",
-            answer: "LOONA 1/3 - Love & Evil",
-          },
-          {
-            url: "https://soundcloud.com/user-174023299/x-yum-yum",
-            answer: "Yeojin, Kim Lip, Choerry, Go Won, Cocomong - Yum-Yum",
-          },
-          {
-            url: "https://soundcloud.com/l2share77/loona-butterfly",
-            answer: "LOONA - Butterfly",
-          },
-          {
-            url: "https://soundcloud.com/yehi-sun/loona-oh-yes-i-am",
-            answer: "LOONA - Oh (Yes I Am)",
-          },
-          {
-            url: "https://soundcloud.com/l2share140/loona-not-friends-sung-by-heejin-kim-lip-jinsoul-yves-prod",
-            answer: "Heejin, Kim Lip, Jinsoul, Yves - Not Friends",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-heejin-hyunjin-my-sunday",
-            answer: "Heejin, Hyunjin - My Sunday",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-gowon-see-saw-kimlip-chuu",
-            answer: "Chuu, Go Won (ft. Kim Lip) - See Saw",
-          },
-          {
-            url: "https://soundcloud.com/user-526930870/satellite",
-            answer: "LOONA - Satellite",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-starlight",
-            answer: "LOONA Odd Eye Circle - Starlight",
-          },
-          {
-            url: "https://soundcloud.com/baunii/puzzle",
-            answer: "Jinsoul, Choerry - Puzzle",
-          },
-          {
-            url: "https://soundcloud.com/yehi-sun/loona-ding-ding-dong",
-            answer: "LOONA - Ding Ding Dong",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-1-3-valentine-girl",
-            answer: "LOONA 1/3 - Valentine Girl",
-          },
-          {
-            url: "https://soundcloud.com/loonatheworld_official/why-not",
-            answer: "LOONA - Why Not?",
-          },
-          {
-            url: "https://soundcloud.com/loonatheworldofficial/vivid-heejin",
-            answer: "Heejin - ViViD",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-yves-new",
-            answer: "Yves - new",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-uncover",
-            answer: "LOONA Odd Eye Circle - Uncover",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-kimlip-eclipse",
-            answer: "Kim Lip - Eclipse",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-odd-front",
-            answer: "LOONA Odd Eye Circle - ODD Front",
-          },
-          {
-            url: "https://soundcloud.com/l2share152/qasdfg",
-            answer: "Olivia Hye - I'll Be Your Spring",
-          },
-          {
-            url: "https://soundcloud.com/user-526930870/curiosity",
-            answer: "LOONA - Curiosity",
-          },
-          {
-            url: "https://soundcloud.com/baunii/frozen",
-            answer: "LOONA yyxy - frozen",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-yves-d-1",
-            answer: "Yves - D-1",
-          },
-          {
-            url: "https://soundcloud.com/yehi-sun/loona",
-            answer: "LOONA - #",
-          },
-          {
-            url: "https://soundcloud.com/spicyshart/loona-be-honest-official-instrumental",
-            answer: "LOONA - Be Honest",
-          },
-          {
-            url: "https://soundcloud.com/l2share94/loona-365",
-            answer: "LOONA - 365",
-          },
-          {
-            url: "https://soundcloud.com/xochitl-rizo/loona-perfect-love",
-            answer: "LOONA - Perfect Love",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-vivi-einy-jinsoul",
-            answer: "Vivi (ft. Jinsoul) - Everyday I Need You",
-          },
-          {
-            url: "https://soundcloud.com/honeygloss/sonatine",
-            answer: "LOONA 1/3 - Sonatine",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-add",
-            answer: "LOONA Odd Eye Circle - ADD",
-          },
-          {
-            url: "https://soundcloud.com/loonatheworld_official/oops",
-            answer: "LOONA - OOPS!",
-          },
-          {
-            url: "https://soundcloud.com/yehi-sun/loona-number-1",
-            answer: "LOONA - Number 1",
-          },
-          {
-            url: "https://soundcloud.com/baunii/love-letter",
-            answer: "Kim Lip, Jinsoul - Love Letter",
-          },
-          {
-            url: "https://soundcloud.com/user-526930870/where-you-at",
-            answer: "LOONA - Where you at",
-          },
-          {
-            url: "https://soundcloud.com/l2shareost33/chuu-loona-lee-hyeop-hello-fling-at-convenience-store-ost-part-1",
-            answer: "LOONA Chuu & DRIPPIN Lee Hyeop - Hello",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-jinsoul-singing-in-the-rain",
-            answer: "Jinsoul - Singing in the Rain",
-          },
-          {
-            url: "https://soundcloud.com/baunii/choerry-love-cherry-motion",
-            answer: "Choerry - Love Cherry Motion",
-          },
-          {
-            url: "https://soundcloud.com/xochitl-rizo/loona",
-            answer: "LOONA - ++",
-          },
-          {
-            url: "https://soundcloud.com/magdalena-manuel/loona-starseed-kakusei",
-            answer: "LOONA - StarSeed ~Kakusei~",
-          },
-          {
-            url: "https://soundcloud.com/l2shareost36/chuu-loona-loving-u-revolutionary-sisters-ost-part-5",
-            answer: "Chuu - Loving U",
-          },
-          {
-            url: "https://soundcloud.com/baunii/rendezvous-18-6y",
-            answer: "LOONA yyxy - rendezvous 18.6y",
-          },
-          {
-            url: "https://soundcloud.com/user-774509722/loona-day-night-hidden-track",
-            answer: "LOONA - Day & Night",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-yeojin?in=baunii/sets/loona-yeojin",
-            answer: "Yeojin - Kiss Later",
-          },
-          {
-            url: "https://soundcloud.com/user-839104478/colors",
-            answer: "LOONA - Colors",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loonarosy-feat-olivia-hye",
-            answer: "Go Won, Olivia Hye (ft. Heejin) - Rosy",
-          },
-          {
-            url: "https://soundcloud.com/skepsies/wow-wow",
-            answer: "LOONA - WOW",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-hyunjin-be-there",
-            answer: "Heejin, Hyunjin - I'll Be There",
-          },
-          {
-            url: "https://soundcloud.com/anh-ph-ng-372953536/dance-on-my-own-loona",
-            answer: "LOONA - Dance On My Own",
-          },
-          {
-            url: "https://soundcloud.com/baunii/love4eva-feat-grimes",
-            answer: "LOONA yyxy - love4eva",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-fairy-tale",
-            answer: "LOONA 1/3 - Fairy Tale",
-          },
-          {
-            url: "https://soundcloud.com/jojothepotato2020/loona-voice",
-            answer: "LOONA - Voice",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-into-the-new-heart-guitar",
-            answer: "LOONA 1/3 - Into the New Heart",
-          },
-          {
-            url: "https://soundcloud.com/baunii/kimlip-twilight",
-            answer: "Kim Lip - Twilight",
-          },
-          {
-            url: "https://soundcloud.com/loonatheworld_official/star",
-            answer: "LOONA - Star",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-you-and-me-together",
-            answer: "LOONA 1/3 - You and Me Together",
-          },
-          {
-            url: "https://soundcloud.com/l2share96/loona-so-what",
-            answer: "LOONA - So What",
-          },
-          {
-            url: "https://soundcloud.com/baunii/one-only",
-            answer: "Go Won - One & Only",
-          },
-          {
-            url: "https://soundcloud.com/baunii/vivid-acoustic-mix",
-            answer: "Heejin - ViViD (Acoustic Mix)",
-          },
-          {
-            url: "https://soundcloud.com/weebtato/loona-x-cocomong-yummy-yummy",
-            answer: "Yeojin, Kim Lip, Choerry, Go Won, Cocomong - Yummy-Yummy",
-          },
-          {
-            url: "https://soundcloud.com/kpop-gurl-952407856/stylish",
-            answer: "LOONA - Stylish",
-          },
-          {
-            url: "https://soundcloud.com/baunii/heart-attack",
-            answer: "Chuu - Heart Attack",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-haseul-let-me-in",
-            answer: "Haseul - Let Me In",
-          },
-          {
-            url: "https://soundcloud.com/baunii/loona-girl-front",
-            answer: "LOONA Odd Eye Circle - Girl Front",
-          },
-          {
-            url: "https://soundcloud.com/not-heej/loona-playback",
-            answer: "LOONA - Playback",
-          }
         ],
         Pn
       ).subscribe,
@@ -9367,12 +8987,12 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "🌙 My Heardle - That LOONA song intros game"),
+          (An.title = "🌙 Harry Styles Heardle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the LOONA song from the intro in as few tries as possible"
+            "Guess the Harry Styles song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
