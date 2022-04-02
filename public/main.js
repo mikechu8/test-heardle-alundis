@@ -8591,11 +8591,22 @@ var app = (function () {
       // "LOONA - Hula Hoop (City Pop Ver.)",
       // "LOONA - A Different Night",
       // "LOONA - &",
+      // "Red Velvet - Psycho",
+      // "Red Velvet - Psycho",
+      // "Red Velvet - Psycho",
+      // "Red Velvet - Psycho",
+      // "Red Velvet - Psycho",
+      // "Red Velvet - Psycho",
+      // "Red Velvet - Psycho",
     ]),
     On = {
       subscribe: ue(
         [
-                    {
+          {
+            url: "https://soundcloud.com/l2share131/aespa-next-level-1",
+            answer: "AESPA - Next Level",
+          },
+          {
             url: "https://soundcloud.com/baunii/loona-haseul-heejin-hyunjin-the-carol",
             answer: "Heejin, Hyunjin, Haseul - The Carol",
           },
