@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "LOONA Heardle"),
+            (u.textContent = "My Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -8597,6 +8597,7 @@ var app = (function () {
       // "Red Velvet - Psycho",
       // "Red Velvet - Psycho",
       // "Red Velvet - Psycho",
+    
       // "Red Velvet - Psycho",
       "Harry Styles - As It Was",
     ]),
@@ -8606,6 +8607,46 @@ var app = (function () {
           {
             url: "https://soundcloud.com/l2share131/aespa-next-level-1",
             answer: "AESPA - Next Level",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/sunflower-vol-6",
+            answer: "Harry Styles - Sunflower, Vol 6",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
           },
           {
             url: "https://soundcloud.com/harrystyles/as-it-was",
