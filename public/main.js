@@ -8584,21 +8584,8 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-      // "A-FLOW with Choerry - YOU",
-      // "LOONA - PTT (Paint The Town)",
-      // "LOONA - PTT (Paint The Town) (Japanese ver.)",
-      // "LOONA - Hula Hoop",
-      // "LOONA - Hula Hoop (City Pop Ver.)",
-      // "LOONA - A Different Night",
-      // "LOONA - &",
-      // "Red Velvet - Psycho",
-      // "Red Velvet - Psycho",
-      // "Red Velvet - Psycho",
-      // "Red Velvet - Psycho",
-      // "Red Velvet - Psycho",
-      // "Red Velvet - Psycho",
-    
-      // "Red Velvet - Psycho",
+      "Harry Styles - Woman",
+      "Harry Styles - Only Angel",
       "Harry Styles - As It Was",
       "Harry Styles - Sunflower, Vol 6",
       "Harry Styles - Cherry",
@@ -8606,6 +8593,22 @@ var app = (function () {
       "Harry Styles - Golden",
       "Harry Styles - Fine Line",
       "Harry Styles - Treat People With Kindness",
+      "Harry Styles - To Be So Lonely",
+      "Harry Styles - Canyon Moon",      
+      "Harry Styles - Falling",
+      "Harry Styles - Adore You",
+      "Harry Styles - Watermelon Sugar",
+      "Harry Styles - Lights Up",
+      "Harry Styles - Ever Since New York",
+      "Harry Styles - Woman",
+      "Harry Styles - Only Angel",
+      "Harry Styles - Meet Me in the Hallway",
+      "Harry Styles - Two Ghosts",
+      "Harry Styles - Kiwi",
+      "Harry Styles - Carolina",
+      "Harry Styles - From the Dining Table",
+      "Harry Styles - Sweet Creature",
+      "Harry Styles - Sign of the Times",
     ]),
     On = {
       subscribe: ue(
@@ -8653,6 +8656,62 @@ var app = (function () {
           {
             url: "https://soundcloud.com/harrystyles/canyon-moon",
             answer: "Harry Styles - Canyon Moon",
+          },          
+          {
+            url: "https://soundcloud.com/harrystyles/falling",
+            answer: "Harry Styles - Falling",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/adore-you",
+            answer: "Harry Styles - Adore You",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/watermelon-sugar",
+            answer: "Harry Styles - Watermelon Sugar",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/lights-up",
+            answer: "Harry Styles - Lights Up",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/ever-since-new-york",
+            answer: "Harry Styles - Ever Since New York",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/woman",
+            answer: "Harry Styles - Woman",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/only-angel",
+            answer: "Harry Styles - Only Angel",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/meet-me-in-the-hallway",
+            answer: "Harry Styles - Meet Me in the Hallway",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/two-ghosts",
+            answer: "Harry Styles - Two Ghosts",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/kiwi",
+            answer: "Harry Styles - Kiwi",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/carolina",
+            answer: "Harry Styles - Carolina",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/from-the-dining-table",
+            answer: "Harry Styles - From the Dining Table",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/sweet-creature",
+            answer: "Harry Styles - Sweet Creature",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/sign-of-the-times",
+            answer: "Harry Styles - Sign of the Times",
           },
         ],
         Pn
