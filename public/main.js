@@ -3903,13 +3903,13 @@ var app = (function () {
       startDate: "2022-03-27",
     },
     Jt = [
-      "Preparing to leave...", // FAILED
-      "Harry would be proud.", // First try
-      "You're pretty good!?",
-      "Hey, that was pretty good.",
-      "Not bad.",
-      "Could've been worse... but I still love you.",
-      "Took you 6 tries... So What?", // Sixth try
+      "Unlucky!",
+      "A virtuoso performance!",
+      "An act of genius!",
+      "You're a star!",
+      "What a pro!",
+      "You're a winner!",
+      "Good result!"
     ];
   function Kt(t) {
     let n, r;
