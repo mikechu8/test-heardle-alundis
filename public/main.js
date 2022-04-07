@@ -8616,6 +8616,11 @@ var app = (function () {
       "Harry Styles - Woman",
       "Harry Styles - Only Angel",
       "Harry Styles - Meet Me in the Hallway",
+      "Harry Styles - Broken",
+      "Harry Styles - War Is Love",
+      "Harry Styles - Juice",
+      "Harry Styles - Dream With Me",
+      "Harry Styles - Big Yellow Taxi (Joni Mitchell Cover)",
     ]),
     On = {
       subscribe: ue(
@@ -8747,6 +8752,26 @@ var app = (function () {
           {
             url: "https://soundcloud.com/harrystyles/meet-me-in-the-hallway",
             answer: "Harry Styles - Meet Me in the Hallway",
+          },
+          {
+            url: "https://soundcloud.com/horania/harry-styles-broken",
+            answer: "Harry Styles - Broken",
+          },
+          {
+            url: "https://soundcloud.com/user-513677112/harry-styles-war-is-love",
+            answer: "Harry Styles - War Is Love",
+          },
+          {
+            url: "https://soundcloud.com/user-300368255/juice-harry-styles",
+            answer: "Harry Styles - Juice",
+          },
+          {
+            url: "https://soundcloud.com/cansel-uslu-992353816/dream-with-me-harry-styles",
+            answer: "Harry Styles - Dream With Me",
+          },
+          {
+            url: "https://soundcloud.com/butterbiebs/hs-big-yellow-taxi",
+            answer: "Harry Styles - Big Yellow Taxi (Joni Mitchell Cover)",
           },
         ],
         Pn
