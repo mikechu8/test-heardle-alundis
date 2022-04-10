@@ -3634,7 +3634,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://loona-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p> \n\n<p class="mb-3">Remixed from the <a href="https://glitch.com/">Glitch</a> apps <a href="https://kpop-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> and <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a> by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
