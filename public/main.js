@@ -3634,7 +3634,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p> \n\n<p class="mb-3">Remixed from the <a href="https://glitch.com/">Glitch</a> apps <a href="https://kpop-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> and <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a> by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p> \n\n<p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. This app was remixed from the <a href="https://glitch.com/">Glitch</a> apps <a href="https://kpop-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> and <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -8603,18 +8603,18 @@ var app = (function () {
       "Harry Styles - Sweet Creature",
       "Harry Styles - Sign of the Times",
       "Harry Styles - Don't Let Me Go",
-      "Harry Styles - Medicine",
-      "Harry Styles - Girl Crush",
-      "Harry Styles - Someday Maybe",
-      "Harry Styles - Sweet Creature",
-      "Harry Styles - Ultralight Beam",
-      "Harry Styles - Anna",
       "Harry Styles - Adore You",
+      "Harry Styles - Medicine",
       "Harry Styles - Watermelon Sugar",
+      "Harry Styles - Girl Crush",
       "Harry Styles - Lights Up",
+      "Harry Styles - Someday Maybe",
       "Harry Styles - Ever Since New York",
+      "Harry Styles - Sweet Creature",
       "Harry Styles - Woman",
+      "Harry Styles - Ultralight Beam",
       "Harry Styles - Only Angel",
+      "Harry Styles - Anna",
       "Harry Styles - Meet Me in the Hallway",
       "Harry Styles - Broken",
       "Harry Styles - War Is Love",
@@ -8702,52 +8702,52 @@ var app = (function () {
             answer: "Harry Styles - Don't Let Me Go",
           },
           {
-            url: "https://soundcloud.com/stopitlarry/harry-styles-medicine-livebest-audio",
-            answer: "Harry Styles - Medicine",
-          },
-          {
-            url: "https://soundcloud.com/emilyrosales/harry-styles-girl-crush-at-the-bbc",
-            answer: "Harry Styles - Girl Crush",
-          },
-          {
-            url: "https://soundcloud.com/hrm216/harry-styles-someday-maybe",
-            answer: "Harry Styles - Someday Maybe",
-          },
-          {
-            url: "https://soundcloud.com/samar_elsayed/harry-styles-sweet-creature",
-            answer: "Harry Styles - Sweet Creature",
-          },
-          {
-            url: "https://soundcloud.com/birchtreehoney/harry-styles-ultralight-beam",
-            answer: "Harry Styles - Ultralight Beam",
-          },
-          {
-            url: "https://soundcloud.com/stopitlarry/harry-styles-anna-best-audio",
-            answer: "Harry Styles - Anna",
-          },
-          {
             url: "https://soundcloud.com/harrystyles/adore-you",
             answer: "Harry Styles - Adore You",
+          },
+          {
+            url: "https://soundcloud.com/stopitlarry/harry-styles-medicine-livebest-audio",
+            answer: "Harry Styles - Medicine",
           },
           {
             url: "https://soundcloud.com/harrystyles/watermelon-sugar",
             answer: "Harry Styles - Watermelon Sugar",
           },
           {
+            url: "https://soundcloud.com/emilyrosales/harry-styles-girl-crush-at-the-bbc",
+            answer: "Harry Styles - Girl Crush",
+          },
+          {
             url: "https://soundcloud.com/harrystyles/lights-up",
             answer: "Harry Styles - Lights Up",
+          },
+          {
+            url: "https://soundcloud.com/hrm216/harry-styles-someday-maybe",
+            answer: "Harry Styles - Someday Maybe",
           },
           {
             url: "https://soundcloud.com/harrystyles/ever-since-new-york",
             answer: "Harry Styles - Ever Since New York",
           },
           {
+            url: "https://soundcloud.com/samar_elsayed/harry-styles-sweet-creature",
+            answer: "Harry Styles - Sweet Creature",
+          },
+          {
             url: "https://soundcloud.com/harrystyles/woman",
             answer: "Harry Styles - Woman",
           },
           {
+            url: "https://soundcloud.com/birchtreehoney/harry-styles-ultralight-beam",
+            answer: "Harry Styles - Ultralight Beam",
+          },
+          {
             url: "https://soundcloud.com/harrystyles/only-angel",
             answer: "Harry Styles - Only Angel",
+          },
+          {
+            url: "https://soundcloud.com/stopitlarry/harry-styles-anna-best-audio",
+            answer: "Harry Styles - Anna",
           },
           {
             url: "https://soundcloud.com/harrystyles/meet-me-in-the-hallway",
