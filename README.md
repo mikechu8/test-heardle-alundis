@@ -3,35 +3,43 @@
 I remixed this from the Loona Heardle  
 https://loona-heardle.glitch.me/
 
-
 ## Songs
 
 - all the audio needs to come from Soundcloud, not any other streaming service
 - edit "public/main.js"
 - the answers are defined at around line #8587
+  - add new items in the format `"Harry Styles - Woman",`
 - the audio tracks are defined at around line #8627
-
+  - add new items in the format 
+    ```
+          {
+            url: "https://soundcloud.com/harrystyles/woman",
+            answer: "Harry Styles - Woman",
+          },
+    ```
+- the order of the answers should be the same as the order of the tracks
 
 ## Feedback
 
 - feedback like "Unlucky!" is at around line #3906
 
-
 ## Sharing image and metadata
 
 - edit "public/main.js"
 - do a search for "Harry Styles Heardle" and update the text with your Heardle name and description
-- open the assets tab and upload your ow
-- edit "src/pages/index.hbs" to change the page metatags and social image
-
+- edit "src/pages/index.hbs" to change the page metatags
+- open the assets tab and upload your own image
+- copy the image URL and add that to the page metadata
 
 ## Analytics
 
+- go to google.com/analytics and sign up for your own Google Analytics account
+- edit "src/pages/index.hbs" and replace the id in line 32, eg. `gtag('config', 'G-GPSR1C0Q60');`
+- if you don't want to use Google Analytics you can remove that whole script block
 
 
 
 ---
-
 
 # Hello Node (blank)
 
