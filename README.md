@@ -1,3 +1,38 @@
+# How to remix this to make your own Heardle game
+
+I remixed this from the Loona Heardle  
+https://loona-heardle.glitch.me/
+
+
+## Songs
+
+- all the audio needs to come from Soundcloud, not any other streaming service
+- edit "public/main.js"
+- the answers are defined at around line #8587
+- the audio tracks are defined at around line #8627
+
+
+## Feedback
+
+- feedback like "Unlucky!" is at around line #3906
+
+
+## Sharing image and metadata
+
+- edit "public/main.js"
+- do a search for "Harry Styles Heardle" and update the text with your Heardle name and description
+- open the assets tab and upload your ow
+- edit "src/pages/index.hbs" to change the page metatags and social image
+
+
+## Analytics
+
+
+
+
+---
+
+
 # Hello Node (blank)
 
 [Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run JavaScript on the server. This project uses the [Fastify](https://www.fastify.io/) framework and basic templating with [Handlebars](https://handlebarsjs.com/).
