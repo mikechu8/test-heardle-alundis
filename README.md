@@ -1,23 +1,40 @@
 # How to remix this to make your own Heardle game
 
-I remixed this from the Loona Heardle  
-https://loona-heardle.glitch.me/
+I remixed this from the [Loona Heardle](https://loona-heardle.glitch.me/)
+
+It's a React app and is already compiled so it's not the easiest to read
+
+If you want to remix it and make your own version, here's what you need to change:
+
+## Glitch
+
+- make an account here on Glitch
+- click the "Remix to Edit" button in the top right corner
 
 ## Songs
 
 - all the audio needs to come from Soundcloud, not any other streaming service
 - edit "public/main.js"
 - the answers are defined at around line #8587
-  - add new items in the format `"Harry Styles - Woman",`
-- the audio tracks are defined at around line #8627
-  - add new items in the format 
+  - add new items in the format (and remember the comma at the end) 
     ```
-          {
-            url: "https://soundcloud.com/harrystyles/woman",
-            answer: "Harry Styles - Woman",
-          },
+    "Harry Styles - Woman",
+    ```
+- the audio tracks are defined at around line #8627
+  - add new items in the format (and remember the comma at the end) 
+    ```
+    {
+      url: "https://soundcloud.com/harrystyles/woman",
+      answer: "Harry Styles - Woman",
+    },
     ```
 - the order of the answers should be the same as the order of the tracks
+- try to choose tracks that aren't blocked in a lot of countries
+
+## Title
+
+- edit "public/main.js"
+- the main page title is on line #711
 
 ## Feedback
 
@@ -37,7 +54,7 @@ https://loona-heardle.glitch.me/
 - edit "src/pages/index.hbs" and replace the id in line 32, eg. `gtag('config', 'G-GPSR1C0Q60');`
 - if you don't want to use Google Analytics you can remove that whole script block
 
-
+<img src="https://cdn.glitch.global/ddbe8776-c33e-4a0d-8de4-6a536510547f/harry-styles-as-it-was.jpg?v=1649009749963">
 
 ---
 
