@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M2CHKFQ)
+
 # How to remix this to make your own Heardle game
 
 I remixed this from the [Loona Heardle](https://loona-heardle.glitch.me/)
