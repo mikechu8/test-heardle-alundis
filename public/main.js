@@ -2667,10 +2667,11 @@ var app = (function () {
             }),
               n.filter && (s = n.filter(s));
             var o = s.slice(0, t.resultsList.maxResults);
+            const o_uniq = [...new Map(o.map(v => [v.id, v])).values()];
             (t.feedback = {
               query: e,
               matches: s,
-              results: o,
+              results: o_uniq,
             }),
               d("results", t);
           },
@@ -8614,6 +8615,19 @@ var app = (function () {
       "Harry Styles - Anna",
       "Harry Styles - Meet Me in the Hallway",
       "Harry Styles - Juice",
+    
+      "Harry Styles - Music For a Sushi Restaurant",
+      "Harry Styles - Late Night Talking",
+      "Harry Styles - Grapejuice",
+      "Harry Styles - Daylight",
+      "Harry Styles - Little Freak",
+      "Harry Styles - Matilda",
+      "Harry Styles - Cinema",
+      "Harry Styles - Daydreaming",
+      "Harry Styles - Keep Driving",
+      "Harry Styles - Satellite",
+      "Harry Styles - Boyfriends",
+      "Harry Styles - Love Of My Life",
       
       // "Harry Styles - Woman",
       // "Harry Styles - Only Angel",
