@@ -2667,10 +2667,12 @@ var app = (function () {
             }),
               n.filter && (s = n.filter(s));
             var o = s.slice(0, t.resultsList.maxResults);
-            const o_uniq = [...new Map(o.map(v => [v.id, v])).values()];
+            // var o_uniq = [...new Map(o.map(v => [v.id, v])).values()];
+            var o_uniq = o.filter((v,i,a)=>a.findIndex(v2=>(JSON.stringify(v2) === JSON.stringify(v)))===i);
             (t.feedback = {
               query: e,
               matches: s,
+              // results: o,
               results: o_uniq,
             }),
               d("results", t);
@@ -3316,7 +3318,8 @@ var app = (function () {
           },
           diacritics: !0,
           noresults: !0,
-          searchEngine: "loose",
+          // searchEngine: "loose",
+          searchEngine: "strict",
           data: {
             src: s,
             cache: !1,
@@ -8884,6 +8887,7 @@ var app = (function () {
             url: "https://soundcloud.com/harrystyles/lights-up",
             answer: "Harry Styles - Lights Up",
           },
+          
           {
             url: "https://soundcloud.com/harrystyles/as-it-was",
             answer: "Harry Styles - As It Was",
@@ -8892,6 +8896,12 @@ var app = (function () {
             url: "https://soundcloud.com/harrystyles/ever-since-new-york",
             answer: "Harry Styles - Ever Since New York",
           },
+          
+          {
+            url: "https://soundcloud.com/harrystyles/music-for-a-sushi-restaurant",
+            answer: "Harry Styles - Music For a Sushi Restaurant",
+          },
+          
           {
             url: "https://soundcloud.com/harrystyles/woman",
             answer: "Harry Styles - Woman",
