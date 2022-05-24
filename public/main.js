@@ -8907,20 +8907,64 @@ var app = (function () {
             answer: "Harry Styles - Woman",
           },
           {
+            url: "https://soundcloud.com/harrystyles/late-night-talking",
+            answer: "Harry Styles - Late Night Talking",
+          },
+          {
             url: "https://soundcloud.com/harrystyles/only-angel",
             answer: "Harry Styles - Only Angel",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/grapejuice",
+            answer: "Harry Styles - Grapejuice",
           },
           {
             url: "https://soundcloud.com/stopitlarry/harry-styles-anna-best-audio",
             answer: "Harry Styles - Anna",
           },
           {
+            url: "https://soundcloud.com/harrystyles/daylight",
+            answer: "Harry Styles - Daylight",
+          },
+          {
             url: "https://soundcloud.com/harrystyles/meet-me-in-the-hallway",
             answer: "Harry Styles - Meet Me in the Hallway",
           },
           {
+            url: "https://soundcloud.com/harrystyles/little-freak",
+            answer: "Harry Styles - Little Freak",
+          },
+          {
             url: "https://soundcloud.com/user-300368255/juice-harry-styles",
             answer: "Harry Styles - Juice",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/matilda",
+            answer: "Harry Styles - Matilda",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/cinema",
+            answer: "Harry Styles - Cinema",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/daydreaming",
+            answer: "Harry Styles - Daydreaming",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/keep-driving",
+            answer: "Harry Styles - Keep Driving",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/satellite",
+            answer: "Harry Styles - Satellite",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/boyfriends",
+            answer: "Harry Styles - Boyfriends",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/love-of-my-life",
+            answer: "Harry Styles - Love Of My Life",
           },
         ],
         Pn
