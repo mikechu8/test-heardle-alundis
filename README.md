@@ -13,6 +13,17 @@ If you want to remix it and make your own version, here's what you need to chang
 - make an account here on Glitch
 - click the "Remix to Edit" button in the top right corner
 
+## The start date
+
+This is the date that the first song in your tracks array will be played, and how the game keeps track of which is today's song.
+
+- edit "public/main.js"
+- the main page title is on line #3907
+- change the start date to today (or whenever you want to start your game)
+  ```
+  startDate: "2022-06-14",
+  ```
+
 ## Songs
 
 - all the audio needs to come from Soundcloud, not any other streaming service
@@ -32,6 +43,9 @@ If you want to remix it and make your own version, here's what you need to chang
     ```
 - the order of the answers should be the same as the order of the tracks
 - try to choose tracks that aren't blocked in a lot of countries
+
+At some point your game will stop working, and it's because it's gone through your list of songs.
+You can fix this by duplicating the songs in the tracks array, or by changing the start date.
 
 ## Title
 
