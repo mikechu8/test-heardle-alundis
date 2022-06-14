@@ -45,7 +45,10 @@ This is the date that the first song in your tracks array will be played, and ho
 - try to choose tracks that aren't blocked in a lot of countries
 
 At some point your game will stop working, and it's because it's gone through your list of songs.
-You can fix this by duplicating the songs in the tracks array, or by changing the start date.
+
+You can fix this by duplicating the songs in the tracks array, or by changing the start date. 
+
+Note that if you change the start date, it will also reset the day number (eg `Harry Styles Heardle #80` will go back to `Harry Styles Heardle #1`)
 
 ## Title
 
