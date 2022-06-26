@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p> \n\n<p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. This app was remixed from the <a href="https://glitch.com/">Glitch</a> apps <a href="https://kpop-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> and <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p> \n\n<p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. This app was remixed from the <a href="https://glitch.com/">Glitch</a> apps <a href="https://kpop-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> and <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a>.</p> \n\n<p><a href="https://glitch.com/~harry-styles-heardle">Remix your own version on Glitch</a></p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -9046,6 +9046,105 @@ var app = (function () {
             url: "https://soundcloud.com/harrystyles/love-of-my-life",
             answer: "Harry Styles - Love Of My Life",
           },
+          // added 26/06/2022
+          {
+            url: "https://soundcloud.com/harrystyles/woman",
+            answer: "Harry Styles - Woman",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/only-angel",
+            answer: "Harry Styles - Only Angel",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/as-it-was",
+            answer: "Harry Styles - As It Was",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/sunflower-vol-6",
+            answer: "Harry Styles - Sunflower, Vol 6",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/she",
+            answer: "Harry Styles - She",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/golden",
+            answer: "Harry Styles - Golden",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/cherry",
+            answer: "Harry Styles - Cherry",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/treat-people-with-kindness",
+            answer: "Harry Styles - Treat People With Kindness",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/fine-line",
+            answer: "Harry Styles - Fine Line",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/to-be-so-lonely",
+            answer: "Harry Styles - To Be So Lonely",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/canyon-moon",
+            answer: "Harry Styles - Canyon Moon",
+          },          
+          {
+            url: "https://soundcloud.com/harrystyles/falling",
+            answer: "Harry Styles - Falling",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/two-ghosts",
+            answer: "Harry Styles - Two Ghosts",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/kiwi",
+            answer: "Harry Styles - Kiwi",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/carolina",
+            answer: "Harry Styles - Carolina",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/from-the-dining-table",
+            answer: "Harry Styles - From the Dining Table",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/sweet-creature",
+            answer: "Harry Styles - Sweet Creature",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/sign-of-the-times",
+            answer: "Harry Styles - Sign of the Times",
+          },
+          {
+            url: "https://soundcloud.com/hitechjesus/harry-styles-dont-let-me-go-1",
+            answer: "Harry Styles - Don't Let Me Go",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/adore-you",
+            answer: "Harry Styles - Adore You",
+          },
+          {
+            url: "https://soundcloud.com/stopitlarry/harry-styles-medicine-livebest-audio",
+            answer: "Harry Styles - Medicine",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/watermelon-sugar",
+            answer: "Harry Styles - Watermelon Sugar",
+          },
+          {
+            url: "https://soundcloud.com/emilyrosales/harry-styles-girl-crush-at-the-bbc",
+            answer: "Harry Styles - Girl Crush",
+          },
+          {
+            url: "https://soundcloud.com/harrystyles/lights-up",
+            answer: "Harry Styles - Lights Up",
+          },
+          
+          
           
         ],
         Pn
