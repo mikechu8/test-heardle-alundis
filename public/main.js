@@ -1236,6 +1236,8 @@ var app = (function () {
     };
   }
   function He(e, t, n) {
+    console.log("welcome to Harry Styles Heardle, day #", t.currentHeardle.id);
+    console.log("if you have any questions, DM me on twitter at @derekahmedzai");
     let r,
       { userGuesses: s } = t,
       { maxAttempts: i } = t,
