@@ -36,7 +36,7 @@ This is the date that the first song in your tracks array will be played, and ho
     answer: "Harry Styles - Woman",
   },
   ```
-- use a hyphen `-` to split the
+- use a hyphen `-` to split the artist and track, don't use other dashes
 - try to choose tracks that aren't blocked in a lot of countries
 
 At some point your game will stop working, and it's because it's gone through your list of songs.
