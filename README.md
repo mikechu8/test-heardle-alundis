@@ -2,11 +2,9 @@
 
 # How to remix this to make your own Heardle game
 
-I remixed this from the [Loona Heardle](https://loona-heardle.glitch.me/)
+I remixed this from the [Loona Heardle](https://loona-heardle.glitch.me/). It's built in Svelte and is already compiled so it's not the easiest to read
 
-It's a Svelte app and is already compiled so it's not the easiest to read
-
-If you want to remix it and make your own version, here's what you need to change:
+If you want to remix it and make your own version, here's what you need to do:
 
 ## Glitch
 

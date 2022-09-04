@@ -3640,7 +3640,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs.</p> \n\n<p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography.</p> \n\n<p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. This app was remixed from the <a href="https://glitch.com/">Glitch</a> apps <a href="https://kpop-heardle.glitch.me/" title="Heardle">K-Pop Heardle</a> and <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a>.</p> \n\n<p><a href="https://glitch.com/~harry-styles-heardle">Remix your own version on Glitch</a></p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs</p><p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography on Soundcloud</p><p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. I also maintain the <a href="https://kpopgg-heardle-round2.glitch.me/">K-Pop girl groups</a> and <a href="https://red-velvet-heardle.glitch.me/">Red Velvet</a> Heardles</p><p><a href="https://glitch.com/~harry-styles-heardle">Remix your own version on Glitch</a>. This app was remixed from the <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a></p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3856,7 +3856,7 @@ var app = (function () {
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing Harry Styles Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
+              '<p class="mb-3">If you have any questions or suggestions, send me <a href="https://twitter.com/derekahmedzai">a tweet or DM</a></p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -3866,17 +3866,17 @@ var app = (function () {
             M(s, "class", "mb-3"),
             M(o, "class", "pt-6");
         },
-        m(e, t) {
-          g(e, n, t),
-            g(e, r, t),
-            g(e, s, t),
-            g(e, i, t),
-            g(e, o, t),
-            ee(a, o, null),
-            g(e, l, t),
-            ee(u, e, t),
-            (c = !0);
-        },
+        // m(e, t) {
+        //   g(e, n, t),
+        //     g(e, r, t),
+        //     g(e, s, t),
+        //     g(e, i, t),
+        //     g(e, o, t),
+        //     ee(a, o, null),
+        //     g(e, l, t),
+        //     ee(u, e, t),
+        //     (c = !0);
+        // },
         p: e,
         i(e) {
           c || (Z(a.$$.fragment, e), Z(u.$$.fragment, e), (c = !0));
