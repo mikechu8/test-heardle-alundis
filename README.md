@@ -60,6 +60,11 @@ Note that if you change the start date, it will also reset the day number (eg `H
 - open the assets tab and upload your own image
 - copy the image URL and add that to the page metadata
 
+## How to contact you
+
+- replace my contact details with yours so that people can let you know if there is a bug, or if they love it!
+- edit "public/main.js" at line #1240, #1643, #3859 or search for "derekahmedzai"
+
 ## Analytics
 
 - go to google.com/analytics and sign up for your own Google Analytics account
