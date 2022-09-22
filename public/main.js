@@ -2669,6 +2669,7 @@ var app = (function () {
             }),
               n.filter && (s = n.filter(s));
             var o = s.slice(0, t.resultsList.maxResults);
+            // remove duplicate answers from the autocomplete
             // var o_uniq = [...new Map(o.map(v => [v.id, v])).values()];
             var o_uniq = o.filter((v,i,a)=>a.findIndex(v2=>(JSON.stringify(v2) === JSON.stringify(v)))===i);
             (t.feedback = {
