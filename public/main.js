@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "Harry Styles Heardle"),
+            (u.textContent = "Test Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -1236,8 +1236,8 @@ var app = (function () {
     };
   }
   function He(e, t, n) {
-    console.log("welcome to Harry Styles Heardle, day #", t.currentHeardle.id);
-    console.log("if you have any questions, DM me on twitter at @derekahmedzai");
+    console.log("welcome to Test Heardle, day #", t.currentHeardle.id);
+    console.log("if you have any questions, don't contact me");
     let r,
       { userGuesses: s } = t,
       { maxAttempts: i } = t,
@@ -3641,7 +3641,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for Harry Styles songs</p><p class="mb-3">Each Harry Styles Heardle is randomly chosen from Harry Styles\'s discography on Soundcloud</p><p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. I also maintain the <a href="https://kpopgg-heardle-round2.glitch.me/">K-Pop girl groups</a> and <a href="https://red-velvet-heardle.glitch.me/">Red Velvet</a> Heardles</p><p><a href="https://glitch.com/~harry-styles-heardle">Remix your own version on Glitch</a>. This app was remixed from the <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a></p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> for songs</p><p class="mb-3">Each Heardle is randomly chosen from Soundcloud</p><p class="mb-3">Created by <a href="https://twitter.com/derekahmedzai">ᴅᴇʀᴇᴋ</a>. He also maintains the <a href="https://kpopgg-heardle-round2.glitch.me/">K-Pop girl groups</a> and <a href="https://red-velvet-heardle.glitch.me/">Red Velvet</a> Heardles</p><p><a href="https://glitch.com/~harry-styles-heardle">Remix your own version on Glitch</a>. This app was remixed from the <a href="https://loona-heardle.glitch.me/" title="Heardle">Loona Heardle</a></p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3857,7 +3857,7 @@ var app = (function () {
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
-              '<p class="mb-3">If you have any questions or suggestions, send me <a href="https://twitter.com/derekahmedzai">a tweet or DM</a></p>'),
+              '<p class="mb-3">If you have any questions or suggestions, send him <a href="https://twitter.com/derekahmedzai">a tweet or DM</a></p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -3907,7 +3907,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-03-27",
+      startDate: "2022-10-03",
     },
     Jt = [
       "Unlucky!",
