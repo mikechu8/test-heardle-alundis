@@ -3916,7 +3916,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-10-03",
+      startDate: "2022-09-26",
     },
     Jt = [
       "Unlucky!",
@@ -4318,9 +4318,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _(
-          "You didn't get today's Heardle. Better luck tomorrow!"
-        );
+        n = _("You didn't get today's Heardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -8601,18 +8599,14 @@ var app = (function () {
       );
     })();
   });
-  
-  const Bn = ue([
-    "Yourmom - Momma",
-  ]),
-  
-  Cn = ue(songs.map((song) => song.answer)),
+
+  const Cn = ue(
+      decoyAnswers.concat(songs.map((song) => song.answer))
+  ),
     On = {
       subscribe: ue(songs, Pn).subscribe,
     },
-    FakeAnswers = ue([
-      "Yourmom - Momma",
-    ]);
+    FakeAnswers = ue(["Yourmom - Momma"]);
   var Pn;
   const { document: An, window: Ln } = X;
   function Nn(e) {
