@@ -597,7 +597,11 @@ var app = (function () {
       c() {
         (t = k("svg")),
           (n = k("path")),
-          M(n, "d" ,"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"),
+          M(
+            n,
+            "d",
+            "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+          ),
           M(t, "xmlns", "http://www.w3.org/2000/svg"),
           M(t, "width", "24"),
           M(t, "height", "24"),
@@ -2671,7 +2675,12 @@ var app = (function () {
             var o = s.slice(0, t.resultsList.maxResults);
             // remove duplicate answers from the autocomplete
             // var o_uniq = [...new Map(o.map(v => [v.id, v])).values()];
-            var o_uniq = o.filter((v,i,a)=>a.findIndex(v2=>(JSON.stringify(v2) === JSON.stringify(v)))===i);
+            var o_uniq = o.filter(
+              (v, i, a) =>
+                a.findIndex(
+                  (v2) => JSON.stringify(v2) === JSON.stringify(v)
+                ) === i
+            );
             (t.feedback = {
               query: e,
               matches: s,
@@ -3734,7 +3743,7 @@ var app = (function () {
     let n, r, s, i, o, a, l, u, c, d;
     return {
       c() {
-          (n = w("div")),
+        (n = w("div")),
           (r = w("div")),
           (s = x()),
           (i = w("div")),
@@ -3916,7 +3925,7 @@ var app = (function () {
       "You're a star!",
       "What a pro!",
       "You're a winner!",
-      "Good result!"
+      "Good result!",
     ];
   function Kt(t) {
     let n, r;
@@ -4036,14 +4045,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next Harry Styles song in:"),
+            (k.textContent = "Next song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Harry Styles Heardle?</span>'),
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4252,7 +4261,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's Harry Styles Heardle within the first ")),
+        (t = _("You got today's Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4279,7 +4288,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's Harry Styles Heardle within ")),
+        (t = _("You got today's Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4309,7 +4318,9 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's Harry Styles Heardle. Better luck tomorrow!");
+        n = _(
+          "You didn't get today's Heardle. Better luck tomorrow!"
+        );
       },
       m(e, t) {
         g(e, n, t);
@@ -4449,7 +4460,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "Harry Styles Heardle #" + (s.id + 1),
+          let e = "Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4466,7 +4477,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\nhttps://harry-styles-heardle.glitch.me";
+          let o = e + "\n\n" + t + "\n\nhttps://test-heardle-alundis.glitch.me";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -4552,7 +4563,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Harry Styles song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8590,14 +8601,9 @@ var app = (function () {
       );
     })();
   });
-  const Cn = ue(
-      songs.map(song => song.answer)
-    ),
+  const Cn = ue(songs.map((song) => song.answer)),
     On = {
-      subscribe: ue(
-        songs,
-        Pn
-      ).subscribe,
+      subscribe: ue(songs, Pn).subscribe,
     };
   var Pn;
   const { document: An, window: Ln } = X;
@@ -8942,12 +8948,12 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "Harry Styles Heardle"),
+          (An.title = "Heardle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the Harry Styles song from the intro in as few tries as possible"
+            "Guess the song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
