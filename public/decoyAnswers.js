@@ -7,4 +7,17 @@ let decoyAnswers = [
   "Pringle - Crunch",
   "Unicorns - They Exist",
   "Bicorns - That's Just an Antelope",
+  "Pringle - Crunch",
+  "Unicorns - They Exist",
+  "Bicorns - That's Just an Antelope",
+  "Pringle - Crunch",
+  "Unicorns - They Exist",
+  "Bicorns - That's Just an Antelope",
+  "Pringle - Crunch",
+  "Unicorns - They Exist",
+  "Bicorns - That's Just an Antelope",
+  "Pringle - Crunch",
+  "Unicorns - They Exist",
+  "Bicorns - That's Just an Antelope",
+  
 ];
