@@ -30,6 +30,20 @@ let decoyAnswers = [
   "Mike Williams - Another Night (ft. Matluck)",
   "David Guetta ft. Sam Martin - Dangerous (Robin Schulz Remix Radio Edit)",
   "David Guetta - Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
-  
-  
+  "R3hab & Quintino - Freak",
+  "Quintino - Go Hard (Original Mix)",
+  "Quintino x Cheat Codes - Can't Fight It (OUT NOW)",
+  "R3HAB & Quintino - I Just Can't",
+  "Quintino & Sandro Silva - Aftermath (Original Mix)",
+  "The Chainsmokers - Don't Let Me Down (Illenium Remix)",
+  "The Chainsmokers & Halsey- Closer (R3hab Remix)",
+  "Tove Lo - Habits (The Chainsmokers Remix)",
+  "Icona Pop - All Night (Cash Cash Remix)",
+  "Cash Cash - Take Me Home (The Chainsmokers Remix)",
+  "Cash Cash - Take Me Home",
+  "marshmello - Alone (Original Mix)",
+  "marshmello - Happier (ft. Bastille)",
+  "marshmello - FRIENDS",
+  "marshmello - Moving On (Original Mix)",
+  "marshmello x Roddy Ricch - Project Dreams",
 ];
