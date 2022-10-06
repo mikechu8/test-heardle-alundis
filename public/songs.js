@@ -37,8 +37,8 @@ let songs = [
   }, // October 4
   
   {
-    url: "https://soundcloud.com/twocolors/lovefool?si=117dfcf392b842669df33c922a621cc3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-    answer: "twocolors - Lovefool",
+    url: "https://soundcloud.com/saintjhn/roses-imanbek-remix?si=e11887bf9c3a48b49c047550f869d0a6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    answer: "SAINt JHN - Roses (Imanbek Remix)",
   }, // October 5
   {
     url: "https://soundcloud.com/saintjhn/roses-imanbek-remix?si=e11887bf9c3a48b49c047550f869d0a6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
